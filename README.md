@@ -7,15 +7,18 @@
 
 
 ## Project Overview
-project/
-├── README.md
-├── notebooks/
-│   ├── DataExplorer.ipynb
-│   ├── ModelTrainer.ipynb
-│   └── ModelVisualizer.ipynb
-└── src/
-    ├── cleaner.py
-    └── explorer.py
+## Project Structure
+
+The project is organized as follows:
+
+- **`README.md`**: The main documentation file.
+- **`notebooks/`**: Contains Jupyter Notebooks for data exploration, model training, and visualization.
+  - `DataExplorer.ipynb`
+  - `ModelTrainer.ipynb`
+  - `ModelVisualizer.ipynb`
+- **`src/`**: Contains Python scripts for data cleaning and exploration.
+  - `cleaner.py`
+  - `explorer.py`
 ### Goal
 To provide a step-by-step guide for working with 100 **hardcore biostatistics datasets**, covering:
 - **Data Cleaning**
