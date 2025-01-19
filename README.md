@@ -7,7 +7,15 @@
 
 
 ## Project Overview
-
+project/
+├── README.md
+├── notebooks/
+│   ├── DataExplorer.ipynb
+│   ├── ModelTrainer.ipynb
+│   └── ModelVisualizer.ipynb
+└── src/
+    ├── cleaner.py
+    └── explorer.py
 ### Goal
 To provide a step-by-step guide for working with 100 **hardcore biostatistics datasets**, covering:
 - **Data Cleaning**
