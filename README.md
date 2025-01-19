@@ -40,7 +40,7 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
   - **Network Data:** Protein-protein interactions, gene networks.
 
 ### 2. Data Cleaning and Preparation
-- Develop a Python class (`BioinformaticsDatasetCleaner`) to:
+- Develop a Python class ([`BioinformaticsDatasetCleaner`](notebooks/BioinformaticsDatasetCleaner.ipynb)) to:
   - Load datasets from various formats (CSV, Excel, JSON, etc.).
   - Handle missing values, duplicates, and outliers.
   - Convert data types and standardize formats.
@@ -50,7 +50,7 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
   - **Source:** Origin of the dataset.
 
 ### 3. Exploratory Data Analysis (EDA)
-- Develop a Python class (`DataExplorer`) to:
+- Develop a Python class ([`DataExplorer`](notebooks/DataExplorer.ipynb)) to:
   - Compute descriptive statistics (mean, median, variance, etc.).
   - Visualize data distributions (histograms, box plots, scatter plots).
   - Identify correlations and patterns.
@@ -59,16 +59,8 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
   - Visualizations.
   - Insights and observations.
 
-### 4. Feature Engineering
-- Apply dimensionality reduction techniques:
-  - **PCA:** For quantitative datasets.
-  - **t-SNE:** For visualizing high-dimensional data.
-- Feature selection:
-  - Remove irrelevant or redundant features.
-  - Select features based on statistical significance.
-
 ### 5. Machine Learning Modeling
-- Develop a Python class (`ModelTrainer`) to:
+- Develop a Python class ([`ModelTrainer`](notebooks/ModelTrainer.ipynb)) to:
   - Split data into training and testing sets.
   - Train **short, technical models** based on dataset type:
     - **Classification:** Random Forest, Logistic Regression.
@@ -80,7 +72,7 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
     - Silhouette Score (clustering).
 
 ### 6. Model Visualization
-- Develop a Python class (`ModelVisualizer`) to:
+- Develop a Python class ([`ModelVisualizer`](notebooks/ModelVisualizer.ipynb)) to:
   - Plot confusion matrices for classification models.
   - Visualize ROC curves and AUC scores.
   - Generate residual plots for regression models.
