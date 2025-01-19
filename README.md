@@ -57,6 +57,20 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
   - **Features:** Column names and descriptions.
   - **Source:** Origin of the dataset.
 
+
+| Dataset Name          | Type            | Size       | Features                          | Use Case                           | Source       | Challenges                     |
+|-----------------------|-----------------|------------|-----------------------------------|------------------------------------|--------------|--------------------------------|
+| **Titanic**           | Qualitative     | 891 rows   | Class, Age, Sex, Survived         | Survival analysis                  | Kaggle       | Missing values in Age          |
+| **Breast Cancer**     | Quantitative    | 569 rows   | Mean radius, Mean texture, Target | Classification (malignant/benign)  | UCI          | None                           |
+| **Iris**              | Quantitative    | 150 rows   | Sepal length, Sepal width, Species| Classification (flower species)    | UCI          | None                           |
+| **Diabetes**          | Quantitative    | 442 rows   | Age, BMI, BP, Target              | Regression (disease progression)   | Scikit-learn | None                           |
+| **Gene Expression**   | Quantitative    | 100x20     | Gene_1 to Gene_100, Sample        | Gene expression analysis           | Synthetic    | High dimensionality            |
+| **Cell Cycle**        | Qualitative     | 50 rows    | Cell, Phase                       | Cell cycle phase classification    | Synthetic    | Small sample size              |
+| **Protein Interaction**| Network        | 10x10      | Protein_1 to Protein_10           | Protein-protein interaction analysis| Synthetic    | Sparse interactions            |
+| **TCGA BRCA**         | Quantitative    | 100x50     | Gene_1 to Gene_100, Patient       | Cancer subtype classification      | TCGA         | High dimensionality            |
+| **Flights**           | Quantitative    | 144 rows   | Year, Month, Passengers           | Time-series analysis               | Seaborn      | None                           |
+| **Diamonds**          | Quantitative    | 53,940 rows| Carat, Cut, Color, Price          | Regression (price prediction)      | Seaborn      | Large dataset size             |
+
 ### 3. Exploratory Data Analysis (EDA)
 - Develop a Python class ([`DataExplorer`](notebooks/DataExplorer.ipynb)) to:
   - Compute descriptive statistics (mean, median, variance, etc.).
