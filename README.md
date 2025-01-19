@@ -6,7 +6,11 @@
 
 
 
+
+
 ##  Overview
+
+
 ## Project Structure
 
 The project is organized as follows:
@@ -19,6 +23,9 @@ The project is organized as follows:
 - **`src/`**: Contains Python scripts for data cleaning and exploration.
   - `cleaner.py`
   - `explorer.py`
+
+---
+
 ### Goal
 To provide a step-by-step guide for working with 100 **hardcore biostatistics datasets**, covering:
 - **Data Cleaning**
@@ -41,6 +48,8 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
 
 ## Big Picture of Project Steps
 
+
+
 ### 1. Data Collection
 - Identify 100 **hardcore datasets** relevant to biostatistics.
 - Sources: Public repositories (e.g., Kaggle, UCI, NCBI, TCGA), research papers, and synthetic data.
@@ -49,6 +58,8 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
   - **Qualitative Data:** Patient demographics, disease classifications.
   - **Time-to-Event Data:** Survival analysis, clinical trials.
   - **Network Data:** Protein-protein interactions, gene networks.
+
+
 
 ### 2. Data Cleaning and Preparation
 - Develop a Python class ([`BioinformaticsDatasetCleaner`](notebooks/BioinformaticsDatasetCleaner.ipynb)) to:
@@ -59,6 +70,7 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
   - **Type:** Quantitative, qualitative, time-to-event, etc.
   - **Features:** Column names and descriptions.
   - **Source:** Origin of the dataset.
+
 
 
 | Dataset Name          | Type            | Size       | Features                          | Use Case                           | Source       | Challenges                     |
@@ -74,6 +86,8 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
 | **Flights**           | Quantitative    | 144 rows   | Year, Month, Passengers           | Time-series analysis               | Seaborn      | None                           |
 | **Diamonds**          | Quantitative    | 53,940 rows| Carat, Cut, Color, Price          | Regression (price prediction)      | Seaborn      | Large dataset size             |
 
+
+
 ### 3. Exploratory Data Analysis (EDA)
 - Develop a Python class ([`DataExplorer`](notebooks/DataExplorer.ipynb)) to:
   - Compute descriptive statistics (mean, median, variance, etc.).
@@ -83,6 +97,8 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
   - Key statistics.
   - Visualizations.
   - Insights and observations.
+
+
 
 ### 5. Machine Learning Modeling
 - Develop a Python class ([`ModelTrainer`](notebooks/ModelTrainer.ipynb)) to:
@@ -104,6 +120,8 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
   - Visualize clusters for unsupervised models.
 - Create interactive visualizations using libraries like Plotly or Seaborn.
 
+
+
 ### 7. Project Integration
 - Develop a Python class (`ProjectManager`) to:
   - Integrate all steps into a cohesive workflow.
@@ -111,6 +129,8 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
 - Create a user-friendly interface:
   - Allow users to select datasets and apply specific analyses.
   - Generate reports and visualizations on demand.
+
+
 
 ### 8. Documentation and Reporting
 - Document the project:
@@ -121,6 +141,8 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
   - Summarize dataset statistics.
   - Include visualizations and model performance metrics.
 
+
+
 ### 9. Deployment and Sharing
 - Deploy the project as a web application:
   - Use Flask or Streamlit for a user-friendly interface.
@@ -128,6 +150,8 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
 - Share the project:
   - Publish on GitHub with open-source licensing.
   - Write a blog post or tutorial to explain the project.
+
+
 
 ### 10. High-Quality Paper
 - Compile findings into a **high-quality paper**:
