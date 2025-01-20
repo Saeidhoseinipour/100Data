@@ -33,11 +33,6 @@ To provide a step-by-step guide for working with 100 **hardcore biostatistics da
 - Use **efficient and interpretable machine learning models** to ensure reproducibility and scalability.
 - Compile findings into a **high-quality paper**.
 
-### Audience
-- Data scientists
-- Biostatisticians
-- Researchers
-- Students
 
 ---
 
